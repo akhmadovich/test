@@ -1,13 +1,7 @@
-let soldiers = {
-	health: 400,
-	armor: 100
-}
+let arr = [14, 26, 73, 4]
+arr.sort(compareArr);
+function compareArr(a, b) {
+	return a - b;
+} 
 
-let john = {
-	health: 100
-};
-
-
-
-john.__proto__ = soldiers;
-console.log(john)
+console.log(arr)
